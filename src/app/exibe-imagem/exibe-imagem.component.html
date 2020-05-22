@@ -1,1 +1,8 @@
-<p>exibe-imagem works!</p>
+<p></p>
+<button type="button" class="btn btn-warning" (click)="exibeImagem()">Exibir Perfil</button>
+
+<div *ngIf="exibe" >
+    <img  [src]="imgUrl" alt="Teste de imagem com botão">
+
+    
+</div>

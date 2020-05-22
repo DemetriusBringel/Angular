@@ -1,0 +1,17 @@
+<div class="container">
+
+    <h2>Perfil do Usuário</h2>
+    <p>Foto do usuário: {{usuario}}</p>
+
+    <div class="card" style="width:400px">
+      <img *ngIf="exibe" class="card-img-top" [src]="fotoPerfil" alt="Card image" style="width:100%">
+
+      <div class="card-body">
+        <h4 class="card-title">Demétrius Bringel</h4>
+        <p class="card-text">Aluno de Ciência da Computação - P6</p>
+        <button type="button" class="btn btn-primary" (click)="exibePerfil()">Exibe perfil</button>
+      </div>
+    </div>
+    <br>
+    
+  </div>

@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'fileiros-app';
   meuNome = "Demétrius Bringel";
+  descricao = "Teste feito dia 21/05/2020"
 }

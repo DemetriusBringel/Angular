@@ -8,10 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ContadorComponent implements OnInit 
 {
   public contador = 0;
-  public imgUrl = 'http://fujideia.com.br/fuji/papw/grupo_handsome_siblings_20022020.png';
-  public outraImgUrl = 'http://sindiclubespa.com.br/wp-content/uploads/2017/10/img_how_to_play_dominoes_375_orig.jpg';
-  public imagemLocal = 'assets/maxresdefault.jpg';
-
+  
   constructor() { }
 
   ngOnInit(): void{

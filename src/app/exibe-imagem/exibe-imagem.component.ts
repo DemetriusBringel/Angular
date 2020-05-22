@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExibeImagemComponent implements OnInit {
 
+  public imgUrl = 'assets/img_avatar1.png';
+  public exibe = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public exibeImagem()
+  {
+    this.exibe = !this.exibe;
   }
 
 }
